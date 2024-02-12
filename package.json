@@ -1,6 +1,9 @@
 {
     "name": "Shivani",
     "version": "1.0.0",
-    "description": "Description of your project"
+    "description": "Description of your project",
+    "scripts": {
+        "build": "mkdir dist && copy index.html dist\\ && copy style.css dist\\ && copy app.js dist\\"
+      }
   }
   
