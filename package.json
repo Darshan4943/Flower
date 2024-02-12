@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "Description of your project",
     "scripts": {
-        "build": "if not exist dist mkdir dist && copy index.html dist\\ && copy style.css dist\\ && copy app.js dist\\"
+        "build": "rmdir /s /q dist && mkdir dist && copy /y index.html dist\\ && copy /y style.css dist\\ && copy /y app.js dist\\"
       }
   }
   
