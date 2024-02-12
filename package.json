@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "Description of your project",
     "scripts": {
-        "build": "rm -rf dist && mkdir dist && cp index.html dist/ && cp style.css dist/ && cp app.js dist/"
-      }
+      "build": "if exist dist ( rd /s /q dist ) else ( mkdir dist ) && xcopy index.html dist && xcopy style.css dist && xcopy app.js dist"
+    }
   }
   
